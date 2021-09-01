@@ -1,0 +1,53 @@
+body {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.imagStyle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgShape img {
+  width: 270px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.imgShape:hover {
+  box-shadow: 0 0 1em lightslategray;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.singleImgStyle {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.imgShapeSingle {
+  display: flex;
+  justify-content: center;
+}
+
+.imgShapeSingle img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.iconArrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
